@@ -10,10 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hola a todos, soy <span className="purple">Ramiro Soares Gahce </span>
             de  <span className="purple"> Buenos Aires, Argentina.</span>
-            <br />Soy un graduado como FullStack development de Henry.
+            <br />Soy un graduado de Henry como FullStack development.
             <br />
             <br />
-            Ademas de programar ¡alguanas de las cosa que me gustahacer son 👇🏼!
+            Ademas de programar ¡ alguanas de las cosa que me gustan hacer 👇🏼!
           </p>
           <ul>
             <li className="about-activity">
