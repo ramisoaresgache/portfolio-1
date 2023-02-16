@@ -17,7 +17,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Juegar a videojuegos
+              <ImPointRight /> Jugar a videojuegos
             </li>
             <li className="about-activity">
               <ImPointRight /> Leer/mirar videos sobre tecnologia
