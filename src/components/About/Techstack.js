@@ -6,16 +6,13 @@ import {
   DiPython,
   DiNodejs,
   DiGit,
-  DiSql,
-  DiDax,
-  DiPowerquery
+  DiDatabase,
 } from "react-icons/di";
 import {
   SiPostgresql,
-  SiInformix,
   SiFigma,
-  Sipowerbi,
-  SiExcel
+  SiPowerbi,
+  SiMicrosoftexcel
 } from "react-icons/si";
 
 function Techstack() {
@@ -31,13 +28,13 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiSql />
+        <DiDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDax />
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPowerquery />
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -46,13 +43,10 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Sipowerbi />
+        <SiPowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiInformix />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExcel />
+        <SiMicrosoftexcel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
