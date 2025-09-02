@@ -3,25 +3,26 @@ import { Col, Row } from "react-bootstrap";
 
 import {
   DiJavascript1,
-  DiReact,
+  DiPython,
   DiNodejs,
-  DiMongodb,
   DiGit,
-  DiHtml5,
-  DiCss3
+  DiSql,
+  DiDax,
+  DiPowerquery
 } from "react-icons/di";
 import {
   SiPostgresql,
+  SiInformix,
   SiFigma,
-  SiRedux,
-  SiTypescript
+  Sipowerbi,
+  SiExcel
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -30,13 +31,13 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiDax />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <DiPowerquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -45,10 +46,16 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
+        <Sipowerbi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <SiInformix />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExcel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
       </Col>
     </Row>
   );
