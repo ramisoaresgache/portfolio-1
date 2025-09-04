@@ -16,17 +16,18 @@ function Home2() {
         <Row>
           <Col md={8} className='home-about-description'>
             <h1 style={{ fontSize: "2.6em" }}>
-              PERMITAME <span className='purple'> PRESENTARME </span>
+              TE CUENTO <span className='purple'> SOBRE MI </span>
             </h1>
             <p className='home-about-body'>
-              DESARROLLADOR FULLSTACK Y DISEÑADOR UX/UI 💻 🎨
+              DESARROLLADOR FULLSTACK Y DATA SCIENTIST 💻 🎨
               <br />
               <br />
-              Construyo aplicaciones web, desde el modelado de sus datos y la
-              implementación del backend (servidor), hasta el desarrollo e
-              implementación del frontend,
+              Construyo soluciones de datos de punta a punta: extracción, limpieza y modelado;
+              análisis estadístico; y reportes interactivos.
+              Automatizo flujos con Python y n8n, e integro APIs y bases de datos de distintos orígenes.
               <i>
-                <b className='purple'>Incluyendo su diseño, UX y UI. </b>
+                <b className='purple'>SKILLS:
+                Python · SQL · ETL · Dashboards · Streamlit · n8n · APIs · Control de calidad de datos · Estadística aplicada · Toma de decisiones basada en datos</b>
               </i>
               <br />
               <br />
@@ -34,11 +35,10 @@ function Home2() {
               interconecta a las personas y a los negocios alrededor del mundo
               &nbsp;
               <i>
-                <b className='purple'>me encantaría combinar </b> mis
-                habilidades de desarrollo y de software con mi experiencia
-                previa en startups y operaciones para continuar{" "}
+                <b className='purple'>Me interesa combinar </b> análisis de datos y desarrollo para resolver problemas de negocio con impacto medible.
+                Quiero unir mi experiencia en producto y operaciones con desarrollo para escalar procesos y mejorar decisiones.{" "}
                 <b className='purple'>
-                  contribuyendo al desarrollo de mi región.
+                  Busco aportar en equipos donde los datos guíen la estrategia y el software la haga realidad.
                 </b>
               </i>
               <br />

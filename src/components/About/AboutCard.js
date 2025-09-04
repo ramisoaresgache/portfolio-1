@@ -10,23 +10,23 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hola a todos, soy <span className="purple">Ramiro Soares Gahce </span>
             de  <span className="purple"> Buenos Aires, Argentina.</span>
-            <br />Soy un graduado de Henry como FullStack development y en la carrera de Ciencias de Datos e IA.
+            <br />Soy un graduado de Henry como FullStack development y en la carrera de Ciencias de Datos e IA en el instituto IEA.
             <br />
             <br />
             Actualmente soy un Analista de datos con experiencia en gobierno local, automatización de reportes y soporte a la toma de decisiones. Foco en ETL con Python/SQL, BI con Power BI y métricas de impacto. Busco potenciar áreas de finanzas públicas con soluciones de datos reproducibles.
             <br />
             <br />
-            Ademas de programar ¡ alguanas de las cosa que me gustan hacer 👇🏼!
+            Ademas de trabajar con los datos tambien me gustan hacer algunas de estas cosas👇🏼
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jugar a videojuegos
+              <ImPointRight /> Entrenar es un buen estimulo para tener la cabeza fresca 🏋🏼‍♂️💪🏼
             </li>
             <li className="about-activity">
-              <ImPointRight /> Leer/mirar videos sobre tecnologia
+              <ImPointRight /> Leer/mirar videos sobre tecnologia 📖 👨🏼‍💻
             </li>
             <li className="about-activity">
-              <ImPointRight /> Viajar
+              <ImPointRight /> Viajar ✈️🌎
             </li>
           </ul>
 
