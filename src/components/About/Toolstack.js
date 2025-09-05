@@ -24,9 +24,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi />
       </Col>
-      <col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />
-      </col>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
       </Col>
