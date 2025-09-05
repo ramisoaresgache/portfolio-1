@@ -40,10 +40,10 @@ function Techstack() {
         <SiGoogleanalytics />
       </Col> 
       <Col xs={4} md={2} className="tech-icons">
-        <SiOpenai />
+        <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <SiOpenai />
       </Col>
     </Row>
   );
