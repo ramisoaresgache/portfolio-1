@@ -10,9 +10,9 @@ import {
 } from "react-icons/di";
 import {
   SiPostgresql,
-  SiFigma,
-  SiPowerbi,
-  SiMicrosoftexcel
+  SiGoogleanalytics,
+  SiTensorflow,
+  SiOpenai
 } from "react-icons/si";
 
 function Techstack() {
@@ -30,12 +30,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDatabase />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -43,14 +37,14 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
+        <SiGoogleanalytics />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
+        <SiTensorflow />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col> */}
     </Row>
   );
 }
