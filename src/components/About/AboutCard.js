@@ -13,7 +13,7 @@ function AboutCard() {
             <br />Soy un graduado de Henry como FullStack development y en la carrera de Ciencias de Datos e IA en el instituto IEA.
             <br />
             <br />
-            Actualmente soy un Analista de datos con experiencia en gobierno local, automatización de reportes y soporte a la toma de decisiones. Foco en ETL con Python/SQL, BI con Power BI y métricas de impacto. Busco potenciar áreas de finanzas públicas con soluciones de datos reproducibles.
+            Actualmente soy un Analista de datos con experiencia en gobierno local, automatización de reportes y soporte a la toma de decisiones. Foco en ETL con Python/SQL, BI con Power BI y métricas de impacto. Busco potenciar áreas con soluciones de datos reproducibles y medibles.
             <br />
             <br />
             Ademas de trabajar con los datos tambien me gustan hacer algunas de estas cosas👇🏼

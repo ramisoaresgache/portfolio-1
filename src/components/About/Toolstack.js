@@ -5,7 +5,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiFigma,
-  SiVercel,
+  SiChatgpt,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,7 +21,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiChatgpt />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />

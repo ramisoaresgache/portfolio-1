@@ -19,14 +19,14 @@ function Home2() {
               TE CUENTO <span className='purple'> SOBRE MI </span>
             </h1>
             <p className='home-about-body'>
-              DESARROLLADOR FULLSTACK Y DATA SCIENTIST 💻 🎨
+              DATA SCIENTIST Y DESARROLLADOR FULLSTACK 📊 💻 
               <br />
               <br />
               Construyo soluciones de datos de punta a punta: extracción, limpieza y modelado;
               análisis estadístico; y reportes interactivos.
               Automatizo flujos con Python y n8n, e integro APIs y bases de datos de distintos orígenes.
               <i>
-                <b className='purple'>SKILLS:
+                <b className='purple'>SKILLS:<br/>
                 Python · SQL · ETL · Dashboards · Streamlit · n8n · APIs · Control de calidad de datos · Estadística aplicada · Toma de decisiones basada en datos</b>
               </i>
               <br />

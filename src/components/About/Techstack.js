@@ -30,12 +30,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDatabase />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -48,9 +48,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
-      </Col>
+      </Col> */}
     </Row>
   );
 }
