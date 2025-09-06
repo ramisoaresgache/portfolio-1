@@ -47,8 +47,8 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="Ecomerce"
-              description="Es un analisis de datos de ventas de distintas tiendas online"
-              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZ0p1urMi8FLoABgAd_vUL0BKHDxK0UQoWFgengyK64LNw"             
+              description="Es un analisis de datos de ventas de distintas tiendas online de Brasil, facturacion total por tienda por mes entre otros, vas a necesitar Power BI para poder abrir el archivo"
+              powerbiLink="https://app.powerbi.com/groups/me/reports/6f9233aa-4222-4b70-abf4-5eada4453d36?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"             
             />
           </Col>
 
@@ -57,8 +57,8 @@ function Projects() {
               imgPath={accidentedetransito}
               isBlog={false}
               title="Accidentes de transito"
-              description="Analisis de los accidentes de transito en las distintas regiones"
-              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/ESnpmzGdgnBOg1qsiGZ_AJEBZSCMm7hY6zTCV4blh8kR-Q?e=Fw20A0"
+              description="Analisis de los accidentes de transito en las distintas regiones de Brasil, con los heridos fatales y los no fatales las causas entre otros, vas a necesitasr Power BI para poder abrir el archivo"
+              powerbiLink="https://app.powerbi.com/groups/me/reports/74682954-d5c7-45a2-bea1-4a5c5b60f55a?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare&bookmarkGuid=01c4d32f-b3ab-4327-8e6f-b3eba0c696ef"
             />
           </Col>
 
@@ -67,8 +67,8 @@ function Projects() {
               imgPath={atencionalcliente}
               isBlog={false}
               title="Atencion al cliente"
-              description="Analsis de lo que es el servicio de atencion al cliente en la empresa"
-              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZXgvVQspyNNi_h7_2udA8IBNS6EXYSIIi_zYGVomzLQOQ?e=wJX7UV"
+              description="Analsis de lo que es el servicio de atencion al cliente en la empresa, donde podras ver el tiempo de atencion, la cantidad de llamadas, la atencion por area entre otros, vas a necesitasr Power BI para poder abrir el archivo"
+              powerbiLink="https://app.powerbi.com/groups/me/reports/b2f034f3-2ca7-4a01-b657-a0548f98a767?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"
             />
           </Col>
 
