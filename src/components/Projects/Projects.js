@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Trabajos <strong className="purple">Recientes </strong>
+          Trabajos <strong className="purple">Realizados </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aca hay algunos proyectos en los que eh estado trabajando.
+          Aca hay algunos proyectos que puedo mostrarte para que veas, son proyectos de demostracion ya que tengo que manteerner la confidencialidad de algunos trabajos por los trabajos que he realizado.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -39,7 +39,6 @@ function Projects() {
               title="Pokedex"
               description="Este proyecto esta hecho con tecnologias de JavaScript, React-Redux, Node.js, Postgresql , es un proyecto que realize en mi etapa de formacion en henry en el cual podemos realizar busquedas, filtrados, creaciones de pokemones, y ver detalles de los mismos."
               ghLink="https://github.com/ramisoaresgache/PokemonPI/tree/master"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -49,8 +48,7 @@ function Projects() {
               isBlog={false}
               title="Ecomerce"
               description="Es un analisis de datos de ventas de distintas tiendas online"
-              ghLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZ0p1urMi8FLoABgAd_vUL0BKHDxK0UQoWFgengyK64LNw"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZ0p1urMi8FLoABgAd_vUL0BKHDxK0UQoWFgengyK64LNw"             
             />
           </Col>
 
@@ -60,8 +58,7 @@ function Projects() {
               isBlog={false}
               title="Accidentes de transito"
               description="Analisis de los accidentes de transito en las distintas regiones"
-              ghLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/ESnpmzGdgnBOg1qsiGZ_AJEBZSCMm7hY6zTCV4blh8kR-Q?e=Fw20A0"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/ESnpmzGdgnBOg1qsiGZ_AJEBZSCMm7hY6zTCV4blh8kR-Q?e=Fw20A0"
             />
           </Col>
 
@@ -71,8 +68,7 @@ function Projects() {
               isBlog={false}
               title="Atencion al cliente"
               description="Analsis de lo que es el servicio de atencion al cliente en la empresa"
-              ghLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZXgvVQspyNNi_h7_2udA8IBNS6EXYSIIi_zYGVomzLQOQ?e=wJX7UV"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              powerbiLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/EZXgvVQspyNNi_h7_2udA8IBNS6EXYSIIi_zYGVomzLQOQ?e=wJX7UV"
             />
           </Col>
 
