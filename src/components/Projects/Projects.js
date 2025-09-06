@@ -4,9 +4,9 @@ import ProjectCard from "../../components/Projects/ProjectCards";
 import Particle from "../Particle";
 import vibe from "../../Assets/Projects/vibe.png";
 import pokemon from "../../Assets/Projects/pokemon.png";
-import ecommerce from "../../src/Assets/Projects/ecommerce.png";
-import accidentedetransito from "../../src/Assets/Projects/accidentedetransito.png";
-import atencionalcliente from "../../src/Assets/Projects/atencionalcliente.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
+import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
+import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
 
 
 function Projects() {
