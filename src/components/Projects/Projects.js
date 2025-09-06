@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import ProjectCard from "../../components/Projects/ProjectCards";
 import Particle from "../Particle";
-import vibe from "../../Assets/Projects/vibe.png";
-import pokemon from "../../Assets/Projects/pokemon.png";
-import ecomerce from "../../Assets/Projects/ecomerce.png";
-import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
-import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
+import vibe from "../../src/Assets/Projects/vibe.png";
+import pokemon from "../../src/Assets/Projects/pokemon.png";
+import ecommerce from "../../src/Assets/Projects/ecommerce.png";
+import accidentedetransito from "../../src/Assets/Projects/accidentedetransito.png";
+import atencionalcliente from "../../src/Assets/Projects/atencionalcliente.png";
 
 
 function Projects() {
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ecomerce}
+              imgPath={ecommerce}
               isBlog={false}
               title="Ecomerce"
               description="Es un analisis de datos de ventas de distintas tiendas online"
