@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import vibe from "../../Assets/Projects/vibe.png";
 import pokemon from "../../Assets/Projects/pokemon.png";
-import Ecomerce from "../../Assets/Projects/Ecomerce.png";
-import Accidentedetransito from "../../Assets/Projects/Accidentedetransito.png";
-import Atencionalcliente from "../../Assets/Projects/Atencionalcliente.png";
+import ecomerce from "../../Assets/Projects/ecomerce.png";
+import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
+import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
 
 
 function Projects() {
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Ecomerce}
+              imgPath={ecomerce}
               isBlog={false}
               title="Ecomerce"
               description="Es un analisis de datos de ventas de distintas tiendas online"
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Accidentedetransito}
+              imgPath={accidentedetransito}
               isBlog={false}
               title="Accidentes de transito"
               description="Analisis de los accidentes de transito en las distintas regiones"
@@ -67,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Atencionalcliente}
+              imgPath={atencionalcliente}
               isBlog={false}
               title="Atencion al cliente"
               description="Analsis de lo que es el servicio de atencion al cliente en la empresa"
