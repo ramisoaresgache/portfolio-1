@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('./components/Particle', () => () => null);
+window.scrollTo = jest.fn();
+
+test('renders the professional profile', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getAllByText(/Ramiro Godino Soares Gache/i).length).toBeGreaterThan(0);
 });

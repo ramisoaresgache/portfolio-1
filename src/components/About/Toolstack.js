@@ -3,8 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiClickup,
   SiVisualstudiocode,
-  SiPostman,
-  SiFigma,
   SiPowerbi,
   SiMicrosoftexcel
 } from "react-icons/si";
@@ -13,23 +11,19 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiClickup />
+        <SiClickup /><span className="tech-label">ClickUp</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode /><span className="tech-label">VS Code</span>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi /><span className="tech-label">Power BI</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiMicrosoftexcel /><span className="tech-label">Excel</span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPowerbi />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
+
     </Row>
   );
 }

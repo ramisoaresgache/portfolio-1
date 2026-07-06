@@ -8,22 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, soy <span className="purple">Ramiro Soares Gahce </span>
-            de  <span className="purple"> Buenos Aires, Argentina.</span>
-            <br />Soy un graduado de Henry como FullStack development y en la carrera de Ciencias de Datos e IA en el instituto IEA.
+            Soy <span className="purple">Ramiro Godino Soares Gache</span>, de
+            <span className="purple"> Vicente López, Buenos Aires, Argentina.</span>
             <br />
             <br />
-            Actualmente soy un Analista de datos con experiencia en gobierno local, automatización de reportes y soporte a la toma de decisiones. Foco en ETL con Python/SQL, BI con Power BI y métricas de impacto. Busco potenciar áreas con soluciones de datos reproducibles y medibles.
+            Desde febrero de 2023 trabajo en la Municipalidad de Vicente López como
+            <span className="purple"> Analista Funcional y de Datos</span>. Participo en el
+            desarrollo y mantenimiento de SIGIP y en soluciones para Hacienda vinculadas con
+            recaudación, cobrabilidad, inspecciones, deuda y proyecciones.
             <br />
             <br />
-            Ademas de trabajar con los datos tambien me gustan hacer algunas de estas cosas👇🏼
+            Automatizo reportes y procesos con Python, cron y SQL sobre Informix, y desarrollo
+            consultas dinámicas que centralizan información para usuarios internos. También
+            participo en la modernización de sistemas legacy con React, Node.js y FiftyFive.
+            <br />
+            <br />
+            Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como
+            desarrollador Full Stack en Henry y completé una capacitación en Power BI en la
+            Universidad de la Ciudad.
+            <br />
+            <br />
+            Fuera del trabajo, también disfruto de:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Entrenar es un buen estimulo para tener la cabeza fresca 🏋🏼‍♂️💪🏼
+              <ImPointRight /> Entrenar para mantener la cabeza fresca 🏋🏼‍♂️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Leer/mirar videos sobre tecnologia 📖 👨🏼‍💻
+              <ImPointRight /> Leer y aprender sobre tecnología 📖
             </li>
             <li className="about-activity">
               <ImPointRight /> Viajar ✈️🌎
@@ -31,7 +43,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-                "Si supieras que no vas a fallar, ¿que tan grande seria tu sueño?"{" "}
+                "Si supieras que no vas a fallar, ¿qué tan grande sería tu sueño?"{" "}
           </p>
           <footer className="blockquote-footer">Ramiro</footer>
         </blockquote>

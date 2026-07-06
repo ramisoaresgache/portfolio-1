@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,30 +18,21 @@ function Home2() {
               TE CUENTO <span className='purple'> SOBRE MI </span>
             </h1>
             <p className='home-about-body'>
-              DATA SCIENTIST Y DESARROLLADOR FULLSTACK 📊 💻 
+              ANALISTA FUNCIONAL Y DE DATOS 📊
               <br />
               <br />
-              Construyo soluciones de datos de punta a punta: extracción, limpieza y modelado;
-              análisis estadístico; y reportes interactivos.
-              Automatizo flujos con Python y n8n, e integro APIs y bases de datos de distintos orígenes.
-              <i>
-                <b className='purple'>SKILLS:<br/>
-                Python · SQL · ETL · Dashboards · Streamlit · n8n · APIs · Control de calidad de datos · Estadística aplicada · Toma de decisiones basada en datos</b>
-              </i>
+              Trabajo en gobierno local sobre SIGIP, el sistema integral de gestión de ingresos
+              públicos. Desarrollo consultas y soluciones para analizar recaudación, tasas, deuda,
+              cobrabilidad, inspecciones y proyecciones.
               <br />
               <br />
-              Soy apasionado por las tecnologías web y por cómo Internet
-              interconecta a las personas y a los negocios alrededor del mundo
-              &nbsp;
-              <i>
-                <b className='purple'>Me interesa combinar </b> análisis de datos y desarrollo para resolver problemas de negocio con impacto medible.
-                Quiero unir mi experiencia en producto y operaciones con desarrollo para escalar procesos y mejorar decisiones.{" "}
-                <b className='purple'>
-                  Busco aportar en equipos donde los datos guíen la estrategia y el software la haga realidad.
-                </b>
-              </i>
+              Combino <b className='purple'>SQL, Python, automatización y BI</b> para transformar
+              bases relacionales en información útil para la toma de decisiones. También participo
+              en la modernización de sistemas legacy con React, Node.js y tecnologías web.
               <br />
               <br />
+              Actualmente curso <b className='purple'>Ciencia de Datos e Inteligencia Artificial</b>,
+              con foco en analítica aplicada, automatización y modelos predictivos.
             </p>
           </Col>
           <Col md={4} className='myAvtar'>
@@ -53,9 +43,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className='home-about-social'>
-            <h1>PODES ENCONTRARME</h1>
+            <h1>PODÉS ENCONTRARME</h1>
             <p>
-              Sientete libre de  <span className='purple'>conectar </span>conmigo
+              Sentite libre de <span className='purple'>conectar </span>conmigo
             </p>
             <ul className='home-about-social-links'>
               <li className='social-icons'>
@@ -88,16 +78,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className='social-icons'>
-                <a
-                  href="https://wa.me/541157399999?"
-                  target='_blank'
-                  rel='noreferrer'
-                  className='icon-colour home-social-icons'
-                >
-                  <AiOutlineWhatsApp />
-                </a>
-              </li>
+
             </ul>
           </Col>
         </Row>

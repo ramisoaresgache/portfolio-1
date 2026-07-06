@@ -7,6 +7,7 @@ import pokemon from "../../Assets/Projects/pokemon.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
 import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
+import sistemaConsultas from "../../Assets/Projects/sistema-consultas.svg";
 
 
 function Projects() {
@@ -18,15 +19,25 @@ function Projects() {
           Trabajos <strong className="purple">Realizados </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aca hay algunos proyectos que puedo mostrarte para que veas, son proyectos de demostracion ya que tengo que manteerner la confidencialidad de algunos trabajos por los trabajos que he realizado.
+          Estos proyectos muestran mi trabajo con análisis de datos, automatización y desarrollo web.
+          Las soluciones internas desarrolladas para la Municipalidad no se publican por confidencialidad.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sistemaConsultas}
+              isBlog={false}
+              title="Sistema de Consultas"
+              description="Aplicación desarrollada en Python para realizar consultas y automatizar búsquedas sobre datos estructurados."
+              ghLink="https://github.com/ramisoaresgache/sistema_consutlas"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vibe}
               isBlog={false}
               title="Vibe"
-              description="Un E-commerce realizado en la etapa final de mis estudios como desarrollador, fue hecho con tecnologias de JavaScript, React-Redux, Node.js, Postgresql . Cuenta con filtrados, busquedas, creaciones de productos, autenticacion, pasarela de pagos ."
+              description="E-commerce desarrollado como proyecto final de Henry con JavaScript, React, Redux, Node.js y PostgreSQL. Incluye filtros, búsquedas, gestión de productos, autenticación y pasarela de pagos."
               ghLink="https://github.com/ramisoaresgache/VIBE"
               demoLink="https://proyecto-final-vibes.vercel.app/"
             />
@@ -37,7 +48,7 @@ function Projects() {
               imgPath={pokemon}
               isBlog={false}
               title="Pokedex"
-              description="Este proyecto esta hecho con tecnologias de JavaScript, React-Redux, Node.js, Postgresql , es un proyecto que realize en mi etapa de formacion en henry en el cual podemos realizar busquedas, filtrados, creaciones de pokemones, y ver detalles de los mismos."
+              description="Aplicación web desarrollada durante mi formación en Henry con JavaScript, React, Redux, Node.js y PostgreSQL. Permite buscar, filtrar, crear y consultar el detalle de Pokémon."
               ghLink="https://github.com/ramisoaresgache/PokemonPI/tree/master"
             />
           </Col>
@@ -46,8 +57,8 @@ function Projects() {
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
-              title="Ecomerce"
-              description="Es un analisis de datos de ventas de distintas tiendas online de Brasil, facturacion total por tienda por mes entre otros, vas a necesitar Power BI para poder abrir el archivo"
+              title="Dashboard de e-commerce"
+              description="Dashboard en Power BI para analizar ventas de tiendas online de Brasil, facturación total, evolución mensual e indicadores por tienda."
               powerbiLink="https://app.powerbi.com/groups/me/reports/6f9233aa-4222-4b70-abf4-5eada4453d36?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"             
             />
           </Col>
@@ -56,8 +67,8 @@ function Projects() {
             <ProjectCard
               imgPath={accidentedetransito}
               isBlog={false}
-              title="Accidentes de transito"
-              description="Analisis de los accidentes de transito en las distintas regiones de Brasil, con los heridos fatales y los no fatales las causas entre otros, vas a necesitasr Power BI para poder abrir el archivo"
+              title="Accidentes de tránsito"
+              description="Dashboard en Power BI sobre accidentes de tránsito en Brasil, con análisis por región, causas y víctimas fatales y no fatales."
               powerbiLink="https://app.powerbi.com/groups/me/reports/74682954-d5c7-45a2-bea1-4a5c5b60f55a?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare&bookmarkGuid=01c4d32f-b3ab-4327-8e6f-b3eba0c696ef"
             />
           </Col>
@@ -66,8 +77,8 @@ function Projects() {
             <ProjectCard
               imgPath={atencionalcliente}
               isBlog={false}
-              title="Atencion al cliente"
-              description="Analsis de lo que es el servicio de atencion al cliente en la empresa, donde podras ver el tiempo de atencion, la cantidad de llamadas, la atencion por area entre otros, vas a necesitasr Power BI para poder abrir el archivo"
+              title="Atención al cliente"
+              description="Dashboard en Power BI sobre atención al cliente: tiempos de respuesta, volumen de llamadas, rendimiento por área y principales indicadores del servicio."
               powerbiLink="https://app.powerbi.com/groups/me/reports/b2f034f3-2ca7-4a01-b657-a0548f98a767?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"
             />
           </Col>

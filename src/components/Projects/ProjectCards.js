@@ -8,19 +8,19 @@ import { SiPowerbi } from "react-icons/si";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img variant="top" src={props.imgPath} alt={`Vista previa de ${props.title}`} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         {props.powerbiLink ? (
-          <Button variant="primary" href={props.powerbiLink} target="_blank">
+          <Button variant="primary" href={props.powerbiLink} target="_blank" rel="noreferrer">
             <SiPowerbi /> &nbsp; Power BI
           </Button>
         ) : (
           props.ghLink && (
-            <Button variant="primary" href={props.ghLink} target="_blank">
+            <Button variant="primary" href={props.ghLink} target="_blank" rel="noreferrer">
               <BsGithub /> &nbsp;{props.isBlog ? "Blog" : "GitHub"}
             </Button>
           )
@@ -33,6 +33,7 @@ function ProjectCards(props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
+            rel="noreferrer"
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
