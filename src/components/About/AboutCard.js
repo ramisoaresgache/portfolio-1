@@ -22,7 +22,7 @@ function AboutCard() {
             consultas dinámicas que centralizan información para 20 usuarios internos. Trabajo
             con bases municipales de volumen variable, incluyendo procesos sobre millones de
             registros. También participo en la modernización de sistemas legacy con React,
-            Node.js y FiftyFive.
+            Node.js y Firabase.
             <br />
             <br />
             Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como
