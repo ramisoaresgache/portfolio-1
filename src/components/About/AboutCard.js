@@ -15,12 +15,14 @@ function AboutCard() {
             Desde febrero de 2023 trabajo en la Municipalidad de Vicente López como
             <span className="purple"> Analista Funcional y de Datos</span>. Participo en el
             desarrollo y mantenimiento de SIGIP y en soluciones para Hacienda vinculadas con
-            recaudación, cobrabilidad, inspecciones, deuda y proyecciones.
+            recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
             <br />
             <br />
             Automatizo reportes y procesos con Python, cron y SQL sobre Informix, y desarrollo
-            consultas dinámicas que centralizan información para usuarios internos. También
-            participo en la modernización de sistemas legacy con React, Node.js y FiftyFive.
+            consultas dinámicas que centralizan información para 20 usuarios internos. Trabajo
+            con bases municipales de volumen variable, incluyendo procesos sobre millones de
+            registros. También participo en la modernización de sistemas legacy con React,
+            Node.js y FiftyFive.
             <br />
             <br />
             Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como

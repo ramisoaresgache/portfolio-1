@@ -22,13 +22,14 @@ function Home2() {
               <br />
               <br />
               Trabajo en gobierno local sobre SIGIP, el sistema integral de gestión de ingresos
-              públicos. Desarrollo consultas y soluciones para analizar recaudación, tasas, deuda,
-              cobrabilidad, inspecciones y proyecciones.
+              públicos. Desarrollo consultas dinámicas y soluciones internas para analizar
+              recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
               <br />
               <br />
               Combino <b className='purple'>SQL, Python, automatización y BI</b> para transformar
-              bases relacionales en información útil para la toma de decisiones. También participo
-              en la modernización de sistemas legacy con React, Node.js y tecnologías web.
+              bases relacionales, incluso procesos sobre millones de registros, en información útil
+              para la toma de decisiones. También participo en la modernización de sistemas legacy
+              con React, Node.js y tecnologías web.
               <br />
               <br />
               Actualmente curso <b className='purple'>Ciencia de Datos e Inteligencia Artificial</b>,

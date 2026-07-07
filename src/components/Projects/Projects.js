@@ -27,8 +27,8 @@ function Projects() {
             <ProjectCard
               imgPath={sistemaConsultas}
               isBlog={false}
-              title="Sistema de Consultas"
-              description="Aplicación desarrollada en Python para realizar consultas y automatizar búsquedas sobre datos estructurados."
+              title="Sistema de Estadísticas Municipal"
+              description="Sistema interno desarrollado para Hacienda con consultas dinámicas sobre recaudación, tasas, deuda, cobrabilidad, inspecciones, períodos, zonas y categorías. Centraliza información para 20 usuarios internos y automatiza reportes sobre grandes volúmenes de datos."
               ghLink="https://github.com/ramisoaresgache/sistema_consutlas"
             />
           </Col>
