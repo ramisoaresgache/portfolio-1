@@ -5,8 +5,8 @@ import {
   SiVisualstudiocode,
   SiPowerbi,
   SiMicrosoftexcel,
-  SiChatgpt,
-  SiClaude
+  SiOpenai,
+  SiChatbot
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,10 +26,10 @@ function Toolstack() {
         <SiMicrosoftexcel /><span className="tech-label">Excel</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase /><span className="tech-label">ChatGPT</span>
+        <SiOpenai /><span className="tech-label">ChatGPT</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase /><span className="tech-label">Claude</span>
+        <SiChatbot /><span className="tech-label">Claude</span>
       </Col>
 
     </Row>
