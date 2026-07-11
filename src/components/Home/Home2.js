@@ -21,7 +21,7 @@ function Home2() {
               ANALISTA FUNCIONAL Y DE DATOS 📊
               <br />
               <br />
-              Trabajo en gobierno local sobre SIGIP, el sistema integral de gestión de ingresos
+              Trabajo en la Municipalidad de Vicente López sobre SIGIP, el sistema integral de gestión de ingresos
               públicos. Desarrollo consultas dinámicas y soluciones internas para analizar
               recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
               <br />
