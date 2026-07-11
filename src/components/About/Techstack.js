@@ -35,6 +35,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact /><span className="tech-label">React</span>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase /><span className="tech-label">Firebase</span>
+      </Col>
+
     </Row>
   );
 }

@@ -23,6 +23,12 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel /><span className="tech-label">Excel</span>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase /><span className="tech-label">ChatGPT</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase /><span className="tech-label">Claude</span>
+      </Col>
 
     </Row>
   );
