@@ -4,7 +4,9 @@ import {
   SiClickup,
   SiVisualstudiocode,
   SiPowerbi,
-  SiMicrosoftexcel
+  SiMicrosoftexcel,
+  SiChatgpt,
+  SiClaude
 } from "react-icons/si";
 
 function Toolstack() {

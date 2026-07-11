@@ -8,6 +8,7 @@ import {
   DiReact,
   DiGit,
   DiDatabase,
+  DiFirebase,
 } from "react-icons/di";
 import { SiPostgresql } from "react-icons/si";
 
@@ -38,7 +39,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDatabase /><span className="tech-label">Firebase</span>
       </Col>
-
     </Row>
   );
 }
