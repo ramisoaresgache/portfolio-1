@@ -18,22 +18,26 @@ function Home2() {
               TE CUENTO <span className='purple'> SOBRE MI </span>
             </h1>
             <p className='home-about-body'>
-              ANALISTA FUNCIONAL Y DE DATOS 📊
+              DATA ENGINEER
               <br />
               <br />
               Trabajo en la Municipalidad de Vicente López sobre SIGIP, el sistema integral de gestión de ingresos
-              públicos. Desarrollo consultas dinámicas y soluciones internas para analizar
+              públicos. Desarrollo procesos ETL, pipelines, automatizaciones y consultas dinámicas para analizar
               recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
               <br />
               <br />
-              Combino <b className='purple'>SQL, Python, automatización y BI</b> para transformar
-              bases relacionales, incluso procesos sobre millones de registros, en información útil
-              para la toma de decisiones. También participo en la modernización de sistemas legacy
-              con React, Node.js y tecnologías web.
+              Combino <b className='purple'>SQL, Python, Informix, Spark, Hadoop y BI</b> para transformar
+              bases relacionales y grandes volúmenes de datos en información útil para la toma de decisiones.
+              También participo en la modernización de sistemas legacy con React, Node.js y tecnologías web.
+              <br />
+              <br />
+              Comencé en la Municipalidad con foco en análisis funcional, relevamiento y documentación de procesos;
+              hoy mi perfil está orientado a <b className='purple'>ingeniería de datos, automatización, procesamiento,
+              almacenamiento y reporting</b>.
               <br />
               <br />
               Actualmente curso <b className='purple'>Ciencia de Datos e Inteligencia Artificial</b>,
-              con foco en analítica aplicada, automatización y modelos predictivos.
+              con foco en ingeniería de datos, BI y modelos predictivos.
             </p>
           </Col>
           <Col md={4} className='myAvtar'>

@@ -12,35 +12,37 @@ function AboutCard() {
             <span className="purple"> Vicente López, Buenos Aires, Argentina.</span>
             <br />
             <br />
-            Desde febrero de 2023 trabajo en la Municipalidad de Vicente López como
-            <span className="purple"> Analista Funcional y de Datos</span>. Participo en el
-            desarrollo y mantenimiento de SIGIP y en soluciones para Hacienda vinculadas con
-            recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
+            Desde febrero de 2023 trabajo en la Municipalidad de Vicente López. Durante mi primer año
+            me enfoqué en <span className="purple"> análisis funcional</span>, relevamiento de necesidades,
+            documentación, testing y mejora de procesos para sistemas de gestión municipal.
             <br />
             <br />
-            Automatizo reportes y procesos con Python, cron y SQL sobre Informix, y desarrollo
-            consultas dinámicas que centralizan información para 20 usuarios internos. Trabajo
-            con bases municipales de volumen variable, incluyendo procesos sobre millones de
-            registros. También participo en la modernización de sistemas legacy con React,
-            Node.js y Firabase.
+            Actualmente mi perfil está orientado a <span className="purple"> Data Engineering</span>. Trabajo
+            sobre SIGIP desarrollando procesos ETL, pipelines, consultas dinámicas y automatizaciones para
+            módulos vinculados con recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
             <br />
             <br />
-            Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como
-            desarrollador Full Stack en Henry y completé una capacitación en Power BI en la
-            Universidad de la Ciudad.
+            Automatizo reportes y procesos con Python, cron y SQL sobre Informix. Trabajo con bases municipales
+            de volumen variable, incluyendo procesos sobre millones de registros, y centralizo información para
+            20 usuarios internos. También participo en la modernización de sistemas legacy con React, Node.js,
+            JavaScript, Python y Firebase.
+            <br />
+            <br />
+            Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como desarrollador
+            Full Stack en Henry y completé una capacitación en Power BI en la Universidad de la Ciudad.
             <br />
             <br />
             Fuera del trabajo, también disfruto de:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Entrenar para mantener la cabeza fresca 🏋🏼‍♂️
+              <ImPointRight /> Entrenar para mantener la cabeza fresca
             </li>
             <li className="about-activity">
-              <ImPointRight /> Leer y aprender sobre tecnología 📖
+              <ImPointRight /> Leer y aprender sobre tecnología
             </li>
             <li className="about-activity">
-              <ImPointRight /> Viajar ✈️🌎
+              <ImPointRight /> Viajar
             </li>
           </ul>
 

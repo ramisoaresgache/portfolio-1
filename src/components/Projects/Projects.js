@@ -19,8 +19,9 @@ function Projects() {
           Trabajos <strong className="purple">Realizados </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Estos proyectos muestran mi trabajo con análisis de datos, automatización y desarrollo web.
-          Las soluciones internas desarrolladas para la Municipalidad no se publican por confidencialidad.
+          Estos proyectos muestran mi trabajo con ingeniería de datos, análisis, automatización,
+          BI y desarrollo web. Las soluciones internas desarrolladas para la Municipalidad no se
+          publican por confidencialidad.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -28,7 +29,7 @@ function Projects() {
               imgPath={sistemaConsultas}
               isBlog={false}
               title="Sistema de Estadísticas Municipal"
-              description="Sistema interno desarrollado para Hacienda con consultas dinámicas sobre recaudación, tasas, deuda, cobrabilidad, inspecciones, períodos, zonas y categorías. Centraliza información para 20 usuarios internos y automatiza reportes sobre grandes volúmenes de datos."
+              description="Sistema interno de ingeniería de datos y BI para Hacienda. Incluye procesos ETL, pipelines, consultas dinámicas y reportes automatizados sobre recaudación, tasas, deuda, cobrabilidad, inspecciones, períodos, zonas y categorías. Centraliza información para 20 usuarios internos y trabaja sobre grandes volúmenes de datos."
               ghLink="https://github.com/ramisoaresgache/sistema_consutlas"
             />
           </Col>
@@ -82,18 +83,6 @@ function Projects() {
               powerbiLink="https://app.powerbi.com/groups/me/reports/b2f034f3-2ca7-4a01-b657-a0548f98a767?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>  */}
         </Row>
       </Container>
     </Container>

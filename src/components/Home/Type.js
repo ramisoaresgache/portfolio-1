@@ -6,9 +6,10 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Analista Funcional y de Datos",
-          "SQL · Python · Automatización · BI",
-          "Desarrollador de soluciones internas",
+          "Data Engineer",
+          "SQL - Python - ETL - Pipelines - BI",
+          "Spark - Hadoop - PySpark",
+          "Soluciones internas y automatización de datos",
           "Estudiante de Ciencia de Datos e IA",
         ],
         autoStart: true,
