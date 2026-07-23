@@ -8,9 +8,8 @@ import {
   DiReact,
   DiGit,
   DiDatabase,
-  DiFirebase,
 } from "react-icons/di";
-import { SiPostgresql, SiApachespark, SiApache } from "react-icons/si";
+import { SiPostgresql, SiApachespark, SiApache, SiFastify } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -40,7 +39,7 @@ function Techstack() {
         <DiReact /><span className="tech-label">React</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiFirebase /><span className="tech-label">Firebase</span>
+        <SiFastify /><span className="tech-label">Fastify 5</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit /><span className="tech-label">Git</span>

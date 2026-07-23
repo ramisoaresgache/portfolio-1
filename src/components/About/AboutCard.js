@@ -25,7 +25,7 @@ function AboutCard() {
             Automatizo reportes y procesos con Python, cron y SQL sobre Informix. Trabajo con bases municipales
             de volumen variable, incluyendo procesos sobre millones de registros, y centralizo información para
             20 usuarios internos. También participo en la modernización de sistemas legacy con React, Node.js,
-            JavaScript, Python y Firebase.
+            JavaScript, Python y Fastify 5.
             <br />
             <br />
             Actualmente curso Ciencia de Datos e Inteligencia Artificial en IEA. Me formé como desarrollador
