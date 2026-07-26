@@ -26,4 +26,7 @@ yarn-error.log*
 .eslintcache
 
 Server/node_modules
+
+# standalone portfolio project
+/municipal-revenue-pipeline/
 Server/config.js

@@ -8,6 +8,7 @@ import ecommerce from "../../Assets/Projects/ecommerce.png";
 import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
 import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
 import sistemaConsultas from "../../Assets/Projects/sistema-consultas.svg";
+import municipalRevenuePipeline from "../../Assets/Projects/municipal-revenue-dashboard.png";
 
 
 function Projects() {
@@ -24,6 +25,16 @@ function Projects() {
           publican por confidencialidad.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={municipalRevenuePipeline}
+              isBlog={false}
+              title="Pipeline ETL de Recaudación Municipal"
+              description="Proyecto reproducible con datos sintéticos para procesar emisión, recaudación, deuda y cobrabilidad. Incluye validaciones de calidad, modelo dimensional, carga en SQLite o PostgreSQL, trazabilidad, forecasting con Python y datasets preparados para Power BI."
+              ghLink="https://github.com/ramisoaresgache/municipal-revenue-pipeline"
+              demoLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/IQCIeo5ulbZ2R49SUsRtUbIDAQSZtD0KdRoecNbs1ALKuHo?e=AvExo2"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sistemaConsultas}
