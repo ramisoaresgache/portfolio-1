@@ -9,7 +9,7 @@ import {
   DiGit,
   DiDatabase,
 } from "react-icons/di";
-import { SiPostgresql, SiApachespark, SiApache, SiFastify } from "react-icons/si";
+import { SiPostgresql, SiApachespark, SiApache, SiDatabricks, SiApacheairflow, SiDbt, SiMicrosoftazure, SiFastify } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -25,6 +25,21 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApache /><span className="tech-label">Hadoop</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDatabricks /><span className="tech-label">Databricks</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApacheairflow /><span className="tech-label">Airflow</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDbt /><span className="tech-label">dbt</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure /><span className="tech-label">Azure</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase /><span className="tech-label">Data Warehouse</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql /><span className="tech-label">PostgreSQL</span>

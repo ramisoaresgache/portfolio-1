@@ -18,7 +18,7 @@ function AboutCard() {
             <br />
             <br />
             Actualmente mi perfil está orientado a <span className="purple"> Data Engineering</span>. Trabajo
-            sobre SIGIP desarrollando procesos ETL, pipelines, consultas dinámicas y automatizaciones para
+            sobre SIGIP desarrollando procesos ETL, pipelines, Data Warehouse, modelado de datos, consultas dinámicas y automatizaciones para
             módulos vinculados con recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
             <br />
             <br />

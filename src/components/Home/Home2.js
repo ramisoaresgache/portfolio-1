@@ -26,13 +26,13 @@ function Home2() {
               recaudación, tasas, deuda, cobrabilidad, inspecciones, estadísticas y proyecciones.
               <br />
               <br />
-              Combino <b className='purple'>SQL, Python, Informix, Spark, Hadoop y BI</b> para transformar
+              Combino <b className='purple'>SQL, Python, Informix, Spark, Hadoop, Databricks, Airflow, dbt, Azure y BI</b> para transformar
               bases relacionales y grandes volúmenes de datos en información útil para la toma de decisiones.
               También participo en la modernización de sistemas legacy con React, Node.js y tecnologías web.
               <br />
               <br />
               Comencé en la Municipalidad con foco en análisis funcional, relevamiento y documentación de procesos;
-              hoy mi perfil está orientado a <b className='purple'>ingeniería de datos, automatización, procesamiento,
+              hoy mi perfil está orientado a <b className='purple'>ingeniería de datos, automatización, Data Warehouse, modelado de datos, procesamiento,
               almacenamiento y reporting</b>.
               <br />
               <br />
