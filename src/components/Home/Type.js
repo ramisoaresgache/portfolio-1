@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Data Engineer",
           "SQL - Python - ETL - Pipelines - BI",
-          "Databricks - Airflow - dbt",
+          "Spark - Hadoop - PySpark",
           "Soluciones internas y automatización de datos",
           "Estudiante de Ciencia de Datos e IA",
         ],
