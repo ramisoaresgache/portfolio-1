@@ -10,87 +10,129 @@ import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
 import sistemaConsultas from "../../Assets/Projects/sistema-consultas.svg";
 import municipalRevenuePipeline from "../../Assets/Projects/municipal-revenue-dashboard.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Trabajos <strong className="purple">Realizados </strong>
+          Trabajos <strong className="purple">Realizados</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Estos proyectos muestran mi trabajo con ingeniería de datos, análisis, automatización,
-          BI y desarrollo web. Las soluciones internas desarrolladas para la Municipalidad no se
-          publican por confidencialidad.
+          Casos de ingeniería de datos, automatización, Business Intelligence y desarrollo web.
+          Cada proyecto está presentado desde el problema hasta el impacto generado.
         </p>
+        <p style={{ color: "rgba(255,255,255,0.72)", fontSize: "0.92rem" }}>
+          Los proyectos municipales protegen datos y código sensibles; se muestran mediante
+          versiones sintéticas o descripciones funcionales.
+        </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={municipalRevenuePipeline}
               isBlog={false}
+              featured
+              category="Data Engineering · Forecasting · BI"
               title="Pipeline ETL de Recaudación Municipal"
-              description="Proyecto reproducible con datos sintéticos para procesar emisión, recaudación, deuda y cobrabilidad. Incluye validaciones de calidad, modelo dimensional, carga en SQLite o PostgreSQL, trazabilidad, forecasting con Python y datasets preparados para Power BI."
+              summary="Pipeline reproducible que transforma datos sintéticos de emisión, recaudación, deuda y cobrabilidad en información lista para analizar."
+              problem="La información tributaria debía integrarse y validarse antes de poder analizar su evolución y proyectar la recaudación."
+              solution="Construí un flujo ETL con controles de calidad, modelo dimensional, carga en base de datos, forecasting en Python y datasets para Power BI."
+              impact="Un proceso completo, trazable y reproducible desde la ingesta hasta el dashboard, sin exponer información municipal real."
+              technologies={["Python", "SQL", "ETL", "SQLite", "PostgreSQL", "Power BI"]}
               ghLink="https://github.com/ramisoaresgache/municipal-revenue-pipeline"
               demoLink="https://mvl365-my.sharepoint.com/:u:/g/personal/ramiro_godino_vicentelopez_gov_ar/IQCIeo5ulbZ2R49SUsRtUbIDAQSZtD0KdRoecNbs1ALKuHo?e=AvExo2"
             />
           </Col>
-          <Col md={4} className="project-card">
+
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={sistemaConsultas}
               isBlog={false}
+              confidential
+              category="Data Engineering · Sistema interno"
               title="Sistema de Estadísticas Municipal"
-              description="Sistema interno de ingeniería de datos y BI para Hacienda. Incluye procesos ETL, pipelines, consultas dinámicas y reportes automatizados sobre recaudación, tasas, deuda, cobrabilidad, inspecciones, períodos, zonas y categorías. Centraliza información para 20 usuarios internos y trabaja sobre grandes volúmenes de datos."
+              summary="Solución interna de datos y BI para centralizar análisis operativos de Hacienda sobre grandes volúmenes de información."
+              problem="Los usuarios necesitaban consultar recaudación, tasas, deuda, cobrabilidad e inspecciones sin depender de procesos manuales dispersos."
+              solution="Desarrollé pipelines ETL, consultas dinámicas y reportes automatizados sobre SQL e Informix, integrados en una aplicación web."
+              impact="Centraliza información para aproximadamente 20 usuarios internos y mejora la disponibilidad de datos para análisis y decisiones."
+              technologies={["Python", "SQL", "Informix", "ETL", "React", "Node.js"]}
               ghLink="https://github.com/ramisoaresgache/sistema_consutlas"
             />
           </Col>
-          <Col md={4} className="project-card">
+
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={vibe}
               isBlog={false}
+              category="Desarrollo Full Stack"
               title="Vibe"
-              description="E-commerce desarrollado como proyecto final de Henry con JavaScript, React, Redux, Node.js y PostgreSQL. Incluye filtros, búsquedas, gestión de productos, autenticación y pasarela de pagos."
+              summary="E-commerce completo desarrollado como proyecto final grupal durante mi formación en Henry."
+              problem="Construir una experiencia de compra que integrara catálogo, búsqueda, usuarios, administración y pagos en una única aplicación."
+              solution="Implementamos un frontend con React y Redux, una API en Node.js y persistencia en PostgreSQL."
+              impact="Producto funcional de punta a punta con filtros, autenticación, gestión de productos y pasarela de pagos."
+              technologies={["JavaScript", "React", "Redux", "Node.js", "PostgreSQL"]}
               ghLink="https://github.com/ramisoaresgache/VIBE"
               demoLink="https://proyecto-final-vibes.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={pokemon}
               isBlog={false}
+              category="Desarrollo Full Stack"
               title="Pokedex"
-              description="Aplicación web desarrollada durante mi formación en Henry con JavaScript, React, Redux, Node.js y PostgreSQL. Permite buscar, filtrar, crear y consultar el detalle de Pokémon."
+              summary="Aplicación web para explorar información de Pokémon y administrar registros personalizados."
+              problem="Integrar datos provenientes de una API externa con información creada y almacenada por el usuario."
+              solution="Desarrollé una aplicación con React, Redux, Node.js y PostgreSQL con búsquedas, filtros, creación y vistas de detalle."
+              impact="Unificó datos externos y propios en una experiencia navegable, aplicando arquitectura frontend, backend y base de datos."
+              technologies={["JavaScript", "React", "Redux", "Node.js", "PostgreSQL"]}
               ghLink="https://github.com/ramisoaresgache/PokemonPI/tree/master"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
+              category="Business Intelligence"
               title="Dashboard de e-commerce"
-              description="Dashboard en Power BI para analizar ventas de tiendas online de Brasil, facturación total, evolución mensual e indicadores por tienda."
-              powerbiLink="https://app.powerbi.com/groups/me/reports/6f9233aa-4222-4b70-abf4-5eada4453d36?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"             
+              summary="Tablero ejecutivo para analizar el desempeño financiero de tiendas online ubicadas en Brasil."
+              problem="La facturación y los pedidos necesitaban una lectura consolidada por período, producto, tienda y ubicación."
+              solution="Modelé los datos y diseñé un dashboard interactivo con indicadores financieros, filtros y análisis geográfico."
+              impact="Facilita la comparación mensual y regional de facturación, pedidos y comisiones desde una única vista."
+              technologies={["Power BI", "Power Query", "DAX", "Modelado de datos"]}
+              powerbiLink="https://app.powerbi.com/groups/me/reports/6f9233aa-4222-4b70-abf4-5eada4453d36?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={accidentedetransito}
               isBlog={false}
+              category="Business Intelligence"
               title="Accidentes de tránsito"
-              description="Dashboard en Power BI sobre accidentes de tránsito en Brasil, con análisis por región, causas y víctimas fatales y no fatales."
+              summary="Dashboard para explorar accidentes registrados en carreteras federales de Brasil."
+              problem="El volumen de eventos dificultaba reconocer rápidamente patrones por estado, horario, causa y nivel de gravedad."
+              solution="Organicé los datos en indicadores, series temporales, comparaciones por categoría y una visualización geográfica interactiva."
+              impact="Permite identificar concentraciones, horarios críticos y causas frecuentes para orientar el análisis preventivo."
+              technologies={["Power BI", "Power Query", "DAX", "Mapas"]}
               powerbiLink="https://app.powerbi.com/groups/me/reports/74682954-d5c7-45a2-bea1-4a5c5b60f55a?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare&bookmarkGuid=01c4d32f-b3ab-4327-8e6f-b3eba0c696ef"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={atencionalcliente}
               isBlog={false}
+              category="Business Intelligence"
               title="Atención al cliente"
-              description="Dashboard en Power BI sobre atención al cliente: tiempos de respuesta, volumen de llamadas, rendimiento por área y principales indicadores del servicio."
+              summary="Dashboard operativo para monitorear la atención al cliente y el rendimiento del servicio."
+              problem="La operación necesitaba relacionar volumen de llamadas, tiempos de atención, satisfacción y distribución por área."
+              solution="Diseñé un tablero con KPIs, filtros temporales y análisis por agente, estado, fecha y sector responsable."
+              impact="Concentra los principales indicadores del servicio y permite detectar demoras, cargas de trabajo y oportunidades de mejora."
+              technologies={["Power BI", "Power Query", "DAX", "KPIs"]}
               powerbiLink="https://app.powerbi.com/groups/me/reports/b2f034f3-2ca7-4a01-b657-a0548f98a767?ctid=4d5bce01-0858-4559-ab59-4a838e82866b&pbi_source=linkShare"
             />
           </Col>
