@@ -9,8 +9,21 @@ import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
 import atencionalcliente from "../../Assets/Projects/atencionalcliente.png";
 import sistemaConsultas from "../../Assets/Projects/sistema-consultas.svg";
 import municipalRevenuePipeline from "../../Assets/Projects/municipal-revenue-dashboard.png";
+import nycTaxiLakehouse from "../../Assets/Projects/nyc-taxi-lakehouse-dashboard.png";
 
 const dataProjects = [
+  {
+    imgPath: nycTaxiLakehouse,
+    featured: true,
+    category: "Data Engineering · Lakehouse · BI",
+    title: "NYC Taxi Lakehouse Analytics",
+    summary: "Lakehouse analítico que transforma viajes de taxi en métricas confiables de demanda, facturación y rendimiento operativo.",
+    problem: "Los registros de viajes contenían observaciones inválidas y necesitaban una estructura confiable antes de poder analizar horarios, evolución y rutas.",
+    solution: "Construí una arquitectura Medallion en Databricks con tablas Delta Bronze, Silver y Gold, validaciones de calidad, transformaciones con PySpark y SQL, y un dashboard AI/BI.",
+    impact: "El pipeline procesó 21.932 registros, aisló 85 viajes inválidos y publicó métricas consistentes sobre 21.847 viajes para análisis ejecutivo.",
+    technologies: ["Databricks", "PySpark", "Spark SQL", "Delta Lake", "Unity Catalog", "AI/BI Dashboards"],
+    demoLink: "https://dbc-92f8da1e-68cc.cloud.databricks.com/dashboardsv3/01f19036f1b61434b7c805260d34e96c/published?o=7474652951142388",
+  },
   {
     imgPath: municipalRevenuePipeline,
     featured: true,
