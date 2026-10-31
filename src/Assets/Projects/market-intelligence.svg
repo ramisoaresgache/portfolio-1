@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Market Intelligence Dashboard</title>
+  <desc id="desc">Ilustración del dashboard de mercado con gráfico, libro de órdenes y métricas</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081421"/><stop offset="1" stop-color="#102b3e"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#132c3d"/><stop offset="1" stop-color="#0c1e2c"/></linearGradient>
+    <linearGradient id="line" x2="0" y2="1"><stop stop-color="#2ce0bd" stop-opacity=".27"/><stop offset="1" stop-color="#2ce0bd" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="28" y="27" width="1144" height="621" rx="21" fill="#0b1b29" stroke="#284858" stroke-width="2"/>
+  <rect x="28" y="27" width="1144" height="73" rx="21" fill="#102637"/>
+  <path d="M28 78h1144" stroke="#294758"/>
+  <rect x="55" y="51" width="21" height="26" rx="3" fill="#20c9a7"/><rect x="83" y="43" width="21" height="34" rx="3" fill="#53dfc5"/>
+  <text x="122" y="72" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#e7f5f5">MARKET INTEL</text>
+  <text x="850" y="70" font-family="Arial,sans-serif" font-size="17" fill="#80a7b6">MERCADO  ·  TRADING  ·  FLUJOS</text>
+  <text x="58" y="149" font-family="Arial,sans-serif" font-size="18" fill="#75a5b3">BTCUSDT · PERPETUO</text>
+  <text x="58" y="192" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="#ecf9f8">BTC<tspan fill="#7f9ba9">/USDT</tspan></text>
+  <rect x="829" y="123" width="311" height="88" rx="13" fill="#113140" stroke="#265866"/>
+  <circle cx="858" cy="167" r="7" fill="#22d4aa"/><text x="878" y="173" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#d9f5f0">MULTIEXCHANGE EN VIVO</text>
+  <rect x="54" y="239" width="745" height="353" rx="16" fill="url(#panel)" stroke="#284858"/>
+  <text x="78" y="276" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#d8eded">PRECIO Y ESTRUCTURA</text>
+  <g stroke="#2a4654" stroke-width="1"><path d="M78 328h695M78 397h695M78 466h695M78 535h695"/><path d="M198 300v260M338 300v260M478 300v260M618 300v260"/></g>
+  <path d="M82 492L128 475 176 481 218 442 260 456 300 414 338 428 385 392 431 403 470 357 507 369 548 332 590 346 632 309 674 324 719 287 769 301V563H82Z" fill="url(#line)"/>
+  <path d="M82 492L128 475 176 481 218 442 260 456 300 414 338 428 385 392 431 403 470 357 507 369 548 332 590 346 632 309 674 324 719 287 769 301" fill="none" stroke="#36dec1" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#38dfc1"><circle cx="218" cy="442" r="5"/><circle cx="470" cy="357" r="5"/><circle cx="719" cy="287" r="5"/></g>
+  <rect x="823" y="239" width="317" height="167" rx="16" fill="url(#panel)" stroke="#284858"/>
+  <text x="847" y="278" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#d8eded">LIBRO DE ÓRDENES</text>
+  <g font-family="Arial,sans-serif" font-size="15"><text x="847" y="316" fill="#58e2c3">COMPRA</text><text x="1047" y="316" fill="#ff8e9b">VENTA</text></g>
+  <g fill="#1d6a65"><rect x="847" y="335" width="129" height="12" rx="3"/><rect x="847" y="359" width="98" height="12" rx="3"/><rect x="847" y="383" width="112" height="12" rx="3"/></g>
+  <g fill="#8a3f55"><rect x="1000" y="335" width="115" height="12" rx="3"/><rect x="1029" y="359" width="86" height="12" rx="3"/><rect x="989" y="383" width="126" height="12" rx="3"/></g>
+  <rect x="823" y="425" width="317" height="167" rx="16" fill="url(#panel)" stroke="#284858"/>
+  <text x="847" y="463" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#d8eded">RIESGO ESTIMADO</text>
+  <text x="847" y="490" font-family="Arial,sans-serif" font-size="14" fill="#80a7b6">ZONAS POTENCIALES · MODELO</text>
+  <g fill="#244e5d"><rect x="847" y="523" width="268" height="14" rx="4"/><rect x="847" y="551" width="268" height="14" rx="4"/></g>
+  <g fill="#27d4b2"><rect x="847" y="523" width="166" height="14" rx="4"/><rect x="847" y="551" width="111" height="14" rx="4"/></g>
+  <text x="57" y="628" font-family="Arial,sans-serif" font-size="15" fill="#7295a4">Visualización conceptual del proyecto · Datos observados y estimaciones diferenciados</text>
+</svg>

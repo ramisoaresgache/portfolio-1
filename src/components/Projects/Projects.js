@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../../components/Projects/ProjectCards";
 import Particle from "../Particle";
 import vibe from "../../Assets/Projects/vibe.png";
+import marketIntelligence from "../../Assets/Projects/market-intelligence.svg";
 import pokemon from "../../Assets/Projects/pokemon.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import accidentedetransito from "../../Assets/Projects/accidentedetransito.png";
@@ -12,6 +13,20 @@ import municipalRevenuePipeline from "../../Assets/Projects/municipal-revenue-da
 import nycTaxiLakehouse from "../../Assets/Projects/nyc-taxi-lakehouse-dashboard.png";
 
 const dataProjects = [
+  {
+    imgPath: marketIntelligence,
+    featured: true,
+    category: "Producto de datos · Mercado cripto",
+    title: "Market Intelligence Dashboard",
+    summary: "Dashboard público para analizar la microestructura y el riesgo del mercado cripto desde una sola interfaz.",
+    problem: "Los libros de órdenes, las velas y las liquidaciones estaban repartidos entre varios exchanges y era fácil confundir eventos observados con zonas de riesgo estimadas.",
+    solution: "Diseñé una interfaz con Next.js, WebSockets y un Web Worker que normaliza datos de múltiples fuentes, mantiene las conexiones y presenta cada tipo de dato con su alcance.",
+    impact: "Permite explorar seis pares de criptoactivos y comparar información multiexchange en vivo sin una infraestructura persistente paga.",
+    technologies: ["Next.js", "React", "TypeScript", "WebSockets", "Web Workers", "Cloudflare Workers"],
+    ghLink: "https://github.com/ramisoaresgache/market-intelligence-dashboard",
+    demoLink: "https://market-intelligence-chi-gilt.vercel.app",
+  },
+
   {
     imgPath: nycTaxiLakehouse,
     featured: true,
