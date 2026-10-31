@@ -24,7 +24,7 @@ const dataProjects = [
     impact: "Permite explorar seis pares de criptoactivos y comparar información multiexchange en vivo sin una infraestructura persistente paga.",
     technologies: ["Next.js", "React", "TypeScript", "WebSockets", "Web Workers", "Cloudflare Workers"],
     ghLink: "https://github.com/ramisoaresgache/market-intelligence-dashboard",
-    demoLink: "https://market-intelligence-chi-gilt.vercel.app",
+    demoLink: "https://marketintelligence-ai.vercel.app",
   },
 
   {
